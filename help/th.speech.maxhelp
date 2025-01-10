@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 344.0, 300.0, 119.0, 60.0 ],
+					"text" : "optional arguments:\n(symbol) voice name\n(int) volume\n(int) rate"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontface" : 1,
 					"id" : "obj-9",
@@ -156,7 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.5, 397.0, 99.0, 60.0 ],
+					"patching_rect" : [ 285.5, 405.0, 99.0, 60.0 ],
 					"text" : "'voice' followed by the name changed the voice"
 				}
 
@@ -188,10 +200,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 332.0, 151.0, 20.0 ],
+					"patching_rect" : [ 241.0, 338.5, 91.0, 33.0 ],
 					"text" : "bang when speech is done"
 				}
 
@@ -214,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 348.0, 234.0, 134.0, 20.0 ],
+					"patching_rect" : [ 360.0, 234.0, 134.0, 20.0 ],
 					"text" : "rate (words-per-minute)"
 				}
 
@@ -227,7 +240,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 339.0, 142.0, 30.0, 90.0 ],
+					"patching_rect" : [ 353.0, 142.0, 30.0, 90.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 185.0 ],
@@ -252,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 234.0, 89.0, 20.0 ],
+					"patching_rect" : [ 255.0, 234.0, 89.0, 20.0 ],
 					"text" : "volume (0-100)"
 				}
 
@@ -265,7 +278,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 231.0, 142.0, 30.0, 90.0 ],
+					"patching_rect" : [ 245.0, 142.0, 30.0, 90.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 19.0 ],
@@ -327,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.0, 397.0, 53.0, 22.0 ],
+					"patching_rect" : [ 232.0, 405.0, 53.0, 22.0 ],
 					"text" : "voice $1"
 				}
 
@@ -352,7 +365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 252.0, 330.0, 24.0, 24.0 ]
+					"patching_rect" : [ 215.0, 343.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -365,7 +378,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 367.0, 100.0, 22.0 ]
+					"patching_rect" : [ 191.0, 375.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -388,8 +401,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "clear", "bang" ],
-					"patching_rect" : [ 210.0, 292.0, 61.0, 22.0 ],
-					"text" : "th.speech"
+					"patching_rect" : [ 191.0, 300.0, 127.0, 22.0 ],
+					"text" : "th.speech Alex 25 180"
 				}
 
 			}
@@ -411,7 +424,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 260.5, 439.31640625, 189.44921875, 439.31640625, 189.44921875, 269.77734375, 219.5, 269.77734375 ],
+					"midpoints" : [ 241.5, 447.31640625, 170.44921875, 447.31640625, 170.44921875, 277.77734375, 200.5, 277.77734375 ],
 					"source" : [ "obj-10", 0 ]
 				}
 

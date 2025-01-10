@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 285.0, 195.0, 51.0, 22.0 ],
+					"text" : "unjoin 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 285.0, 165.0, 72.0, 22.0 ],
+					"text" : "patcherargs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 345.0, 195.0, 100.0 ],
+					"patching_rect" : [ 570.0, 345.0, 195.0, 100.0 ],
 					"text" : "Not supported yet, to do:\n\n- speech pitch\n- speech modulation\n- inputMode <text/phonomes>\n- characterMode <normal/literal>\n- numberMode <normal/literal>"
 				}
 
@@ -81,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 105.0, 272.0, 47.0 ],
+					"patching_rect" : [ 570.0, 105.0, 272.0, 47.0 ],
 					"text" : "Use the 'say' command from the terminal on Mac through the [shell] object by Jeremy Bernstein.  Specify the voice, volume and speech rate."
 				}
 
@@ -94,7 +118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 60.0, 121.0, 33.0 ],
+					"patching_rect" : [ 570.0, 60.0, 121.0, 33.0 ],
 					"text" : "th.speech"
 				}
 
@@ -106,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 165.0, 255.0, 33.0 ],
+					"patching_rect" : [ 570.0, 165.0, 255.0, 33.0 ],
 					"text" : "Inspired as an alternative for the aka.speech (which doesn't work for arm64)"
 				}
 
@@ -243,7 +267,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 270.0, 285.0, 60.0 ],
+					"patching_rect" : [ 570.0, 270.0, 285.0, 60.0 ],
 					"text" : "Resource for more instructions on 'say' commands: https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html"
 				}
 
@@ -269,7 +293,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 225.0, 322.0, 33.0 ],
+					"patching_rect" : [ 570.0, 225.0, 322.0, 33.0 ],
 					"text" : "Dependency: https://github.com/jeremybernstein/shell/releases/tag/1.0b3"
 				}
 
@@ -590,6 +614,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
 					"source" : [ "obj-39", 1 ]
 				}
@@ -599,6 +630,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-112", 1 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 1 ],
+					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 1 ],
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
