@@ -142,8 +142,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 495.0, 73.0, 22.0 ],
-					"text" : "r printvoices"
+					"patching_rect" : [ 120.0, 495.0, 113.0, 22.0 ],
+					"text" : "r #0_printvoices"
 				}
 
 			}
@@ -153,8 +153,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 285.0, 75.0, 22.0 ],
-					"text" : "s printvoices"
+					"patching_rect" : [ 270.0, 285.0, 115.0, 22.0 ],
+					"text" : "s #0_printvoices"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 780.0, 30.0, 30.0 ]
+					"patching_rect" : [ 152.0, 780.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -190,7 +190,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 636.0, 30.0, 30.0 ]
+					"patching_rect" : [ 180.0, 636.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -213,7 +213,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 345.0, 40.0, 22.0 ],
+					"patching_rect" : [ 122.5, 330.0, 40.0, 22.0 ],
 					"text" : "join 3"
 				}
 
@@ -329,7 +329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 390.0, 155.0, 22.0 ],
+					"patching_rect" : [ 60.0, 384.0, 155.0, 22.0 ],
 					"text" : "-v $3 [[volm $1]] [[ rate $2 ]]"
 				}
 
@@ -425,7 +425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 30.0, 616.0, 22.0, 22.0 ],
+					"patching_rect" : [ 30.0, 636.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
