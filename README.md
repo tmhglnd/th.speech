@@ -41,11 +41,11 @@ Or through clone
 
 Not supported yet, but on the to-do list:
 
-- speech pitch
-- speech modulation
-- inputMode (text/phonomes)
-- characterMode (normal/literal)
-- numberMode (normal/literal)
+- [ ] speech pitch
+- [ ] speech modulation
+- [ ] inputMode (text/phonomes)
+- [ ] characterMode (normal/literal)
+- [ ] numberMode (normal/literal)
 
 ## License
 
